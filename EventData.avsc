@@ -1,0 +1,111 @@
+{
+  "type": "record",
+  "name": "EventData",
+  "namespace": "com.hackathon.services.kinesisanalytics",
+  "fields": [
+      {
+        "name": "id",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "account_id",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "bytes",
+        "type": ["long", "null"]
+      },
+      {
+        "name": "start",
+        "type": "int"
+      },
+      {
+        "name": "end",
+        "type": "int"
+      },
+      {
+        "name": "version",
+        "type": ["int", "null"]
+      },
+      {
+        "name": "interface_id",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "srcaddr",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "dstaddr",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "srcport",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "dstport",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "protocol",
+        "type": ["int", "null"]
+      },
+      {
+        "name": "packets",
+        "type": ["int", "null"]
+      },
+      {
+        "name": "action",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "log_status",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "vpc_id",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "subnet_id",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "instance_id",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "tcp_flags",
+        "type": ["int", "null"]
+      },
+      {
+        "name": "type",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "pkt_srcaddr",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "pkt_dstaddr",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "meta_s3_file",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "meta_account_no",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "meta_region",
+        "type": ["string", "null"]
+      },
+      {
+        "name": "meta_account_name",
+        "type": ["string", "null"]
+      }
+  ]
+}
